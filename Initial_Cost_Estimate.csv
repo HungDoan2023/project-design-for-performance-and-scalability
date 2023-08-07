@@ -1,0 +1,20 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+16428,9196.77,126789.24,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,53,636.00,USD,,"Hosted Zones (1), Additional Records in Hosted Zones (1), IP (CIDR) blocks (6)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,266.45,3197.40,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,4673.7,56084.40,USD,,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon EC2 ,1808,2610.94,33139.28,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m5a.xlarge), Pricing strategy (Standard Reserved Instances 1 Year  Partial upfront), Enable monitoring (disabled), EBS Storage amount (4 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,14620,1544.0873,33149.05,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Quantity (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr Partial Upfront), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for total retention (per vCPU per month) (1.50), Additional backup storage (500 GB), Total Size of Backup Processed for Export (GB) (5 per week)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,26.37,316.44,USD,,"S3 Standard storage (1 TB per month), PUT, COPY, POST, LIST requests to S3 Standard (10000), GET, SELECT, and all other requests from S3 Standard (10000), Data returned by S3 Select (1 TB per month), Data scanned by S3 Select (1 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,22.22,266.64,USD,,"Number of EC2 instances (6), Number of EIPs per instance (2), Number of EIP remaps (2)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
